@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  /* if it cannot load the font quicksand, load the sans-serif font */
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  font-size : 16px;
+}
+
+li a:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
